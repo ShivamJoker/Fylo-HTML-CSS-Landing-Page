@@ -200,7 +200,7 @@ footer .early-access {
   margin: 0 auto;
   box-sizing: border-box;
   text-align: center;
-  transform: translateY(-100px);
+  transform: translateY(-125px);
 }
 
 footer .early-access input {
