@@ -139,6 +139,18 @@ section.reviews {
   margin-top: 80px;
 }
 
+section.reviews .card:nth-child(1) {
+  position: relative;
+}
+section.reviews .card > img {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: -10px;
+  top: -32px;
+  z-index: -1;
+}
+
 section.reviews .card {
   width: 350px;
   height: 180px;
