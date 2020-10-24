@@ -131,8 +131,12 @@ section.productive a {
   color: var(--cyan);
   text-decoration: none;
   border-bottom: 1px solid var(--cyan);
+  padding-bottom: 5px;
 }
-
+section.productive a img{
+  height: 15px;
+  transform: translateY(3px);
+}
 section.reviews {
   display: flex;
   justify-content: center;
