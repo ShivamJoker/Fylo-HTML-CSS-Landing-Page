@@ -27,6 +27,10 @@ header {
   margin: 20px;
 }
 
+p{
+  line-height: 1.5rem;
+}
+
 nav {
   padding: 50px 25px;
   display: flex;
@@ -139,6 +143,8 @@ section.productive a img{
   height: 15px;
   transform: translateY(3px);
 }
+
+/* Reviews styles  */
 section.reviews {
   display: flex;
   justify-content: center;
@@ -159,7 +165,7 @@ section.reviews .card > img {
 
 section.reviews .card {
   width: 350px;
-  height: 180px;
+  /* height: 180px; */
   background-color: var(--tetimonials-bg);
   margin: 25px;
   padding: 20px;
@@ -174,12 +180,15 @@ section.reviews .card {
   margin-right: 10px;
 }
 
+
+
 .card .user-info {
   display: flex;
   align-items: center;
 }
 .card .user-info p {
   margin: 0px;
+  line-height: 1rem;
 }
 
 .user-info .about {
@@ -199,6 +208,7 @@ footer {
 
 footer .early-access {
   padding: 25px 40px;
+  padding-bottom: 40px;
   background-color: var(--primary-intro-email-bg);
   border-radius: 5px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.555);
