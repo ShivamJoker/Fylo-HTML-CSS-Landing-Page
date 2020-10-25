@@ -27,10 +27,26 @@ header {
   margin: 20px;
 }
 
-p{
+p {
   line-height: 1.5rem;
 }
 
+button {
+  padding: 15px 0px;
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(to right, var(--cyan), var(--blue));
+  border: none;
+  border-radius: 150px;
+  cursor: pointer;
+  width: 220px;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
 nav {
   padding: 50px 25px;
   display: flex;
@@ -74,17 +90,6 @@ section.intro button {
   margin-bottom: 200px;
 }
 
-button {
-  padding: 15px 0px;
-  font-size: 1rem;
-  color: #fff;
-  background: linear-gradient(to right, var(--cyan), var(--blue));
-  border: none;
-  border-radius: 150px;
-  cursor: pointer;
-  width: 220px;
-}
-
 section.features {
   display: flex;
   flex-wrap: wrap;
@@ -114,7 +119,7 @@ section.features p {
 
 section.features img {
   margin: 15px;
-  height:auto ;
+  height: auto;
 }
 
 section.productive {
@@ -139,7 +144,7 @@ section.productive a {
   border-bottom: 1px solid var(--cyan);
   padding-bottom: 5px;
 }
-section.productive a img{
+section.productive a img {
   height: 15px;
   transform: translateY(3px);
 }
@@ -179,8 +184,6 @@ section.reviews .card {
   border-radius: 50px;
   margin-right: 10px;
 }
-
-
 
 .card .user-info {
   display: flex;
