@@ -93,6 +93,7 @@ section.features .item-container {
   max-width: 370px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   text-align: center;
   margin: 50px;
@@ -109,6 +110,7 @@ section.features p {
 
 section.features img {
   margin: 15px;
+  height:auto ;
 }
 
 section.productive {
