@@ -54,7 +54,7 @@ nav {
   align-items: center;
   background-color: var(--primary-intro-email-bg);
 }
-nav .logo{
+nav .logo {
   width: 120px;
   height: auto;
 }
@@ -372,5 +372,12 @@ footer .social div {
   }
   footer {
     max-height: 80%;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+  nav .logo {
+    width: 80px;
   }
 }
